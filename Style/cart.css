@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --main-color: #031833;
+  --secondary-color: #063470;
+  --light-color: #748ba9;
+  --padding: 20px 20px;
+}
+#main {
+  display: flex;
+  margin: 30px;
+  justify-content: space-between;
+}
+#left-container {
+  flex: 3;
+  margin-right: 40px;
+}
+#right-container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: var(--light-color);
+  border-radius: 10px;
+  height: fit-content;
+}
+table {
+  border: none;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+td,
+th {
+  border: none;
+  vertical-align: middle;
+}
+th:first-child {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+th:last-child {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+/* thead{
+    border: none;
+    background-color:var(--light-color) ;
+    color: var(--main-color);
+    border-radius: 10px;
+    height: 50px;
+} */
+h2 {
+  padding: 20px;
+  color: var(--main-color);
+}
+.subtotal {
+  align-items: center;
+  margin: 0px;
+  color: var(--main-color);
+  padding: 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* .row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#label{
+    background-color:#897a67 ;
+    color: white;
+    border-radius: 10px;
+} */
+.img {
+  width: 100%;
+  padding: 20px;
+}
+td {
+  width: 25%;
+  text-align: center;
+}
+/* from details */
+.number {
+  padding: 3px;
+  width: 60px;
+  font-size: 20px;
+}
+.btn-icon {
+  height: 35px;
+  width: 35px;
+  border-radius: 5px;
+  border: var(--main-color) solid 2px;
+  font-size: 25px;
+  padding: 3px;
+  color: var(--main-color);
+}
+button {
+  cursor: pointer;
+}
+.btn-icon:hover {
+  color: white;
+  background-color: var(--main-color);
+}
+#checkout {
+  background-color: var(--main-color);
+  color: white;
+  width: 130px;
+  height: 35px;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#checkout:hover {
+  background-color: white;
+  color: var(--main-color);
+}
+/* responsive */
+/* table > thead,th>td {
+    background-color: var(--main-color) !important;
+    color: white !important;
+   
+} */
+/* responsive */
+h1 {
+  margin-top: 2rem !important;
+  margin-left: 1rem !important;
+}
+@media (min-width: 600px) and (max-width: 1200px) {
+  .img {
+    padding: 0px;
+  }
+}

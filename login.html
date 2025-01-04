@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f4f4f4;
+      }
+      #errorMessages {
+        margin: 5px;
+        color: red;
+      }
+    </style>
+    <link rel="stylesheet" href="/Style/style.css" />
+  </head>
+  <body>
+    <div class="login-container">
+      <h2>Login</h2>
+      <form action="#" id="formValidation">
+        <div class="input-group">
+          <label for="username">Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required />
+        </div>
+        <div id="errorMessages"></div>
+        <button type="submit" class="btn">Login</button>
+      </form>
+      <div class="footer">
+        <p>Forgot your password?</p>
+        <p>Don't have an account? <a href="#">Sign up</a></p>
+      </div>
+    </div>
+    <script src="./Script/loginValidation.js"></script>
+  </body>
+</html>

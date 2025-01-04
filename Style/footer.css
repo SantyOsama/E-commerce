@@ -1,0 +1,92 @@
+/*==================================================
+************************footer***********************
+====================================================*/
+* {
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --main-color: #031833;
+  --secondary-color: #063470;
+  --light-color: #748ba9;
+  --padding: 20px 20px;
+}
+hr {
+  border: none;
+  height: 1px;
+  background-color: var(--light-color);
+  font-size: 80px;
+}
+#footer-container {
+  display: flex;
+  gap: 150px;
+  flex-direction: row;
+  justify-content: center; /* Optional: Centers footer content */
+  align-items: flex-start; /* Ensures items align to the top */
+}
+.footer-link {
+  color: #000;
+  text-decoration: none;
+}
+.footer-link:hover {
+  color: var(--main-color);
+}
+button {
+  background-color: white;
+  border: none;
+}
+input {
+  width: 110px;
+  border: none;
+  margin-left: 10px;
+}
+input:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+  background: transparent;
+}
+input::placeholder {
+  color: var(--secondary-color);
+}
+#input-container {
+  padding: 2px;
+  width: 160px;
+  border: var(--main-color) 1px solid;
+}
+i {
+  font-size: 18px;
+  color: var(--main-color);
+}
+#up {
+  height: 25px;
+  width: 25px;
+  border-radius: 5px;
+  justify-content: center;
+  align-content: center;
+  cursor: pointer;
+}
+#icon {
+  height: 35px;
+  width: 35px;
+  border-radius: 5px;
+  border: var(--main-color) solid 2px;
+  padding: 5px;
+  padding-bottom: 12px;
+  font-size: 30px;
+}
+#icon:hover {
+  color: white;
+  background-color: var(--main-color);
+}
+#copy-right {
+  display: flex;
+  justify-content: center;
+  font-size: 11px;
+  padding-left: 5%;
+}
+.second-hr {
+  width: 90%;
+}
+div {
+  padding: 15px 0px;
+}

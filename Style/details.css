@@ -1,0 +1,51 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+:root {
+    --main-color: #031833;
+    --secondary-color: #063470;
+    --light-color: #748ba9;
+    --padding: 20px 20px;
+  }
+.stock{
+    color: green;
+}
+span{
+    
+    color: gray;
+}
+#brand{
+    background-color: var(--main-color);
+    color: white; 
+}
+#number{
+    background-color:inherit;
+   
+}
+.btn-icon {
+    border: var(--main-color) solid 2px;  
+}
+.btn-icon:hover{
+    color: white;
+    background-color:var(--main-color) ;
+}
+#buy{
+    background-color: var(--main-color);
+    color: white;
+}
+#buy:hover{
+    background-color: white;
+    color: var(--main-color);
+}
+button{
+    cursor: pointer;
+}
+#box{
+    border: var(--light-color) solid 1px;
+}
+
+
+#title{
+    color: gray;
+}
+/* override footet btn */
